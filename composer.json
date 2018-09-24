@@ -1,0 +1,21 @@
+{
+    "name": "makeweb/squish",
+    "description": "CLI Tool for migrating wordpress installations",
+    "type": "command-line-interface",
+    "authors": [
+        {
+            "name": "Andrew Feeney",
+            "email": "webspannerdev@gmail.com"
+        }
+    ],
+    "require": {
+        "mnapoli/silly": "^1.6",
+        "illuminate/database": "^5.5",
+        "larapack/dd": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MakeWeb\\": "src/"
+        }
+    }
+}
